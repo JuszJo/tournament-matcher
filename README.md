@@ -17,7 +17,9 @@ const socket = io("<URL>/tournament", {
 })
 ```
 
-The listen to these events
+Listen to these events;
+
+#### Note - For the celebrity, listen to the event `total-players` which returns a number.
 
 - `matched` - when a player has be matched with another player. returns a lobby code {lobbyCode: 2129818}
 
