@@ -14,6 +14,11 @@ const socket = io("<URL>/tournament", {
         userId: <USERID>,
         tournamentId: <TOURNAMENTID>,
         isOwner?: <BOOLEAN> // ONLY FOR THE CREATOR OF THE TOURNAMENT, THIS ENABLES THEM TO RECIEVE THE TOTAL PLAYER EVENTS
+    },
+    auth: {
+        userId: <USERID>,
+        tournamentId: <TOURNAMENTID>,
+        isOwner?: <BOOLEAN>
     }
 })
 ```
